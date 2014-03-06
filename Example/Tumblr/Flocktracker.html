@@ -1,0 +1,938 @@
+<!DOCTYPE html>
+<!-- saved from url=(0031)http://flocktracker.tumblr.com/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script src="./Flocktracker_files/quant.js" async="" type="text/javascript"></script><script async="" src="./Flocktracker_files/analytics.js"></script><script>var __pbpa = true;</script><script>var translated_warning_string = 'Warning: Never enter your Tumblr password unless \u201chttps://www.tumblr.com/login\u201d\x0ais the address in your web browser.\x0a\x0aYou should also see a green \u201cTumblr, Inc.\u201d identification in the address bar.\x0a\x0aSpammers and other bad guys use fake forms to steal passwords.\x0a\x0aTumblr will never ask you to log in from a user\u2019s blog.\x0a\x0aAre you absolutely sure you want to continue?';</script><script type="text/javascript" language="javascript" src="./Flocktracker_files/pre_tumblelog.js"></script>
+
+<!--[if lt IE 7]><html class="lt-ie10 lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html class="lt-ie10 lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html class="lt-ie10 lt-ie9"> <![endif]-->
+<!--[if IE 9]><html class="lt-ie10"> <![endif]-->
+<!--[if gt IE 9]><!-->  <!--<![endif]-->
+    
+        
+        <meta charset="utf-8">
+        <title>Flocktracker</title>
+        
+        <meta name="description" content="The Flocktracker Android-based smartphone application advances traditional data collecting methodology, enabling the creation of robust data sets quickly and easily.">
+        
+        
+        <!-- Theme Defaults -->
+        <meta name="Title font" content="Helvetica Neue">
+        <meta name="Title font weight" content="bold" title="Bold">
+        <meta name="Title font weight" content="normal" title="Normal">
+        <meta name="Body font" content="Helvetica Neue">
+        <meta name="Background color" content="#f6f6f6">
+        <meta name="Title color" content="#444444">
+        <meta name="Link color" content="#529ecc">
+        <meta name="Header image" content="">
+
+        <meta name="if:Sliding header" content="1">
+        <meta name="if:Stretch header image" content="1">     
+        <meta name="if:Collapse navigation" content="1">
+        <meta name="if:Show description" content="1">
+        <meta name="if:Show title" content="1">
+        <meta name="if:Show header image" content="1">
+        <meta name="if:Endless scrolling" content="1">
+
+        <meta name="select:Avatar style" content="circle" title="Circle">
+        <meta name="select:Avatar style" content="square" title="Square">
+        <meta name="select:Avatar style" content="hidden" title="Hidden">
+
+        <meta name="select:Layout" content="regular" title="Regular">
+        <meta name="select:Layout" content="narrow" title="Narrow">
+        <meta name="select:Layout" content="grid" title="Grid">
+
+        <meta name="text:Disqus shortname" content="">
+        <meta name="text:Google analytics ID" content="">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <link rel="shortcut icon" href="./Flocktracker_files/avatar_c7f9de36c105_128.png">
+        <link rel="apple-touch-icon-precomposed" href="./Flocktracker_files/avatar_c7f9de36c105_128.png">
+        <link rel="alternate" type="application/rss+xml" href="http://flocktracker.tumblr.com/rss">
+        
+        <link rel="stylesheet" href="http://static.tumblr.com/vr9xgox/PuGmmhqcs/normalize.css">
+        <link rel="stylesheet" href="http://static.tumblr.com/vr9xgox/adcmzkawk/main.css">
+
+        <!-- HTML5 Shiv -->
+        <!--[if lt IE 9]>
+                <script src="http://static.tumblr.com/hriofhd/Qj0m8pn7q/html5shiv.js"></script>
+        <![endif]-->
+
+        <style>
+            /* Colors */
+            body {
+                background: #f6f6f6;
+                font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif, "Helvetica Neue", HelveticaNeue, Arial, sans-serif;
+            }
+
+            h1 {
+                font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif, "Helvetica Neue", HelveticaNeue, Arial, sans-serif;
+                font-weight: bold;
+            }
+
+            h2, .attribution-tags {
+                font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif, "Helvetica Neue", HelveticaNeue, Arial, sans-serif;
+            }
+
+            h1 a,
+            #pagination a,
+            .exposed-nav-wrapper li a,
+            .sub-title,
+            .search-header {
+                color: #444444;
+            }
+            
+            #pagination a.next:after {
+                border-left-color: #444444;
+            }
+
+            #pagination a.previous:after {
+                border-right-color: #444444;
+            }
+
+            .h-line {
+                background: #444444;
+            }
+
+            a {
+                color: #4a09bb;
+            }
+
+            .link-wrapper h2 a {
+                background-color: #4a09bb;
+            }
+            
+            .header-image {
+                background-image: url(http://static.tumblr.com/13e562f6309862ff6a9ee91b4cdeb87a/bhauser/pr9mzffkj/tumblr_static_screen_shot_2014-01-14_at_11.07.06_pm.png);
+            }
+
+            .user-avatar {
+                background-color: #f6f6f6;
+                border-color: #f6f6f6;
+            }
+
+            .avatar-style-square .user-avatar {
+                -wekbit-box-shadow: 0 0 0 4px #f6f6f6;
+                -moz-box-shadow: 0 0 0 4px #f6f6f6;
+                box-shadow: 0 0 0 4px #f6f6f6;
+            }
+            
+            @media screen and (max-device-width: 568px) {
+                .header-image {
+                    background-image: url(http://static.tumblr.com/13e562f6309862ff6a9ee91b4cdeb87a/bhauser/pr9mzffkj/tumblr_static_screen_shot_2014-01-14_at_11.07.06_pm_1024.png);
+                }
+            }
+
+            /* Custom CSS */
+            
+        </style>
+    
+<!-- BEGIN TUMBLR FACEBOOK OPENGRAPH TAGS --><!-- If you'd like to specify your own Open Graph tags, define the og:url and og:title tags in your theme's HTML. --><!-- Read more: http://ogp.me/ --><meta property="fb:app_id" content="48119224995"><meta property="og:title" content="Flocktracker"><meta property="og:url" content="http://flocktracker.tumblr.com/?og=1"><meta property="og:description" content="The Flocktracker Android-based smartphone application advances traditional data collecting..."><meta property="og:type" content="tumblr-feed:tumblelog"><meta property="og:image" content="http://31.media.tumblr.com/avatar_c7f9de36c105_128.png"><!-- END TUMBLR FACEBOOK OPENGRAPH TAGS -->
+
+
+<!-- TWITTER TAGS --><meta charset="utf-8"><meta name="twitter:site" content="tumblr"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="flocktracker"><meta name="twitter:description" content="The Flocktracker Android-based smartphone application advances traditional data collecting methodology, enabling the creation of robust data sets quickly and easily."><meta name="twitter:app:name:iphone" content="Tumblr"><meta name="twitter:app:name:ipad" content="Tumblr"><meta name="twitter:app:name:googleplay" content="Tumblr"><meta name="twitter:app:id:iphone" content="305343404"><meta name="twitter:app:id:ipad" content="305343404"><meta name="twitter:app:id:googleplay" content="com.tumblr"><meta name="twitter:app:url:iphone" content="tumblr://x-callback-url/blog?blogName=flocktracker&amp;referrer=twitter-cards"><meta name="twitter:app:url:ipad" content="tumblr://x-callback-url/blog?blogName=flocktracker&amp;referrer=twitter-cards"><meta name="twitter:app:url:googleplay" content="tumblr://x-callback-url/blog?blogName=flocktracker&amp;referrer=twitter-cards">
+
+<script src="./Flocktracker_files/tumblelog.js"></script><style type="text/css" id="tumblr_teaser_follow_css">
+#tumblr_teaser_follow {
+display: block;
+opacity: 1;
+visibility: hidden;
+position: fixed;
+bottom: 0px;
+right: 0px;
+width: 1px;
+height: 1px;
+z-index: 2147483647;
+}
+#tumblr_teaser_follow.open {
+visibility: visible;
+width: 310px;
+height: 110px;
+}
+</style><style type="text/css" id="tumblr_iframe_css">
+.tumblr_controls {
+position: absolute;
+top: 0px;
+right: 0px;
+display: block;
+opacity: 1;
+width: 1px;
+height: 1px;
+z-index: 2147483647;
+visibility: hidden;
+pointer-events: none;
+}
+.tumblr_controls.visible {
+visibility: visible;
+pointer-events: all;
+}
+.tumblr_controls.sticky {
+position: fixed;
+}
+.tumblr_controls.flash_fix {
+visibility: hidden !important;
+}
+#tumblr_controls {
+width: 267px;
+height: 26px;
+}
+</style>
+<meta http-equiv="x-dns-prefetch-control" content="off">
+</head>
+    <body data-urlencoded-name="flocktracker" class="regular index-page">
+        <section id="page">
+            <div class="nav-menu-wrapper ">
+                <nav class="nav-menu pop">
+                    <a class="selector"><span class="icon"></span></a>
+                    <div class="pop-menu west">
+                        <ul>
+                            <li class="no-hover">
+                                <form action="http://flocktracker.tumblr.com/search" method="get" id="search">
+                                    <input type="text" name="q" id="q" placeholder="Search" value="">
+                                    <button type="submit"></button>
+                                </form>
+                            </li>
+                            
+                                <li>
+                                    <a href="http://flocktracker.tumblr.com/archive" class="archive arrow">Archive</a>
+                                </li>
+                                
+                                
+                                
+                            
+                        </ul>
+                    </div> 
+                </nav>
+                <div class="glass"></div>
+            </div>
+            <div class="nav-menu-bg"></div>
+            <div class="header-wrapper
+                
+                
+                
+                avatar-style-circle">
+
+                <header id="header">
+                    
+                    <div class="header-image-wrapper">
+                        <a href="./Flocktracker_files/Flocktracker.html" class="header-image parallax cover loaded" data-bg-image="http://static.tumblr.com/13e562f6309862ff6a9ee91b4cdeb87a/bhauser/pr9mzffkj/tumblr_static_screen_shot_2014-01-14_at_11.07.06_pm.png"></a>
+                    </div>
+                    
+
+                    <div class="blog-title content">
+                        <figure class="avatar-wrapper">
+                            <a href="./Flocktracker_files/Flocktracker.html" style="background-image: url(http://31.media.tumblr.com/avatar_c7f9de36c105_128.png)" class="user-avatar"><img src="./Flocktracker_files/avatar_c7f9de36c105_128.png" alt="" class="print-only invisible"></a>
+                        </figure>
+                        
+                        <h1><a href="./Flocktracker_files/Flocktracker.html">Flocktracker</a></h1>
+                        
+                        
+                        <span class="sub-title">
+                            The Flocktracker Android-based smartphone application advances traditional data collecting methodology, enabling the creation of robust data sets quickly and easily.
+                        </span>
+                        
+                    </div>
+
+                    
+
+                    <div class="back-to-top"><a class="top" href="http://flocktracker.tumblr.com/#"></a></div>
+                </header>
+            </div>
+            
+            <section id="posts" class="content clearfix  avatar-style-circle">
+    
+                <div data-page-id="1">
+                    
+                            <article class="link not-page post-76394212376" data-post-id="post_76394212376">
+                                <div class="post-wrapper clearfix">
+                                    <section class="post">
+                                        
+
+                                        
+
+                                        
+
+                                        
+
+
+                                        
+                                        <div class="link-wrapper">
+                                            <h2><a href="http://www.scribd.com/doc/206591546/State-of-the-Application">State of the Application</a></h2>
+                                        </div>
+                                        
+                                        <div class="caption">
+                                            <blockquote class="link_og_blockquote">
+<div>Flocktracker has evolved substantially from its original Mexico City build, back in May of 2013. From user interface to overall functionality, the application has completely rebuilt the original design. The new system is far more stable, accurate, and versatile than it has ever been. To learn more and understand how we have advanced each component of the application, please read further.</div>
+</blockquote>
+
+<p><iframe class="scribd_iframe_embed" frameborder="0" height="600" id="doc_39211" scrolling="no" src="./Flocktracker_files/content(2).html" width="100%" data-auto-height="false" data-aspect-ratio="0.772922022279349"></iframe></p>
+                                        </div>
+                                        
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+                                        
+
+                                        
+
+                                        
+                                                                            
+                                        
+
+                                    </section>
+                                    
+                                    
+                                    <section class="panel">
+                                        <footer class="post-footer">
+                                            <section class="meta"> 
+                                                <ul class="post-date">
+                                                    <li>
+                                                        <a href="http://flocktracker.tumblr.com/post/76394212376/state-of-the-application" title="3 weeks ago">Feb 11th, 2014</a>
+                                                    </li>
+                                                    
+                                                </ul>
+                                            </section>
+                                            
+                                            <section class="post-controls">
+                                                <ul>
+                                                    <li class="share-control">
+                                                        <nav class="pop">
+                                                            <a href="http://flocktracker.tumblr.com/#" class="share selector"></a>
+                                                            <div class="pop-menu share-menu south" id="share_76394212376">
+                                                                <ul>
+                                                                    <li class="open-in-app"><a href="http://flocktracker.tumblr.com/#" class="share-item open-in-app" data-post="76394212376">Open in app</a></li>
+                                                                    <li><a href="http://facebook.com/sharer.php?u=http%3A%2F%2Fflocktracker.tumblr.com%2Fpost%2F76394212376%2Fstate-of-the-application&t=Flocktracker" class="share-item facebook" target="_blank">Facebook</a></li>
+                                                                    <li><a href="https://twitter.com/intent/tweet?text=State%20of%20the%20Application%20-%20Flocktracker%20has%20evolved%20substantially%20from%20its%20original%20Mexico%20City%20build%2C%20back...%20http%3A%2F%2Ftmblr.co%2FZRIlho179SomO" class="share-item twitter" target="_blank">Tweet</a></li>
+                                                                    <li><a href="mailto:?subject=A%20link%20from%20Flocktracker&body=State%20of%20the%20Application%20-%20Flocktracker%20has%20evolved%20substantially%20from%20its%20original%20Mexico%20City%20build%2C%20back%20in%20May%20of%202013.%20From%20user%20interface%20to%20overall%20functionality%2C%20the...%20http%3A%2F%2Fflocktracker.tumblr.com%2Fpost%2F76394212376%2Fstate-of-the-application" class="share-item mail">Mail</a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </li>
+                                                    <li class="reblog-control"><a href="http://www.tumblr.com/reblog/76394212376/ejehhLMJ" class="reblog_button" style="display: block;width:21px;height:21px;"><svg width="100%" height="100%" viewBox="0 0 537 512" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M 98.893,177.139c0.00-7.462, 4.826-12.275, 12.288-12.275L 405.12,164.864 l0.00,83.469 l 118.72-120.947L 405.12,8.678l0.00,81.51 L 49.382,90.189 c-15.206,0.00-27.648,12.429-27.648,27.648l0.00,171.814 l 77.146-71.603L 98.88,177.139 z M 438.874,332.646c0.00,7.45-4.826,12.275-12.275,12.275L 123.75,344.922 l0.00-83.469 l-116.506,120.922l 116.506,120.947l0.00-81.498 l 356.864,0.00 c 15.206,0.00, 27.648-12.454, 27.648-27.648L 508.262,220.134 l-69.402,71.59L 438.861,332.646 z"></path></svg></a></li>
+                                                    <li class="like-control"><div class="like_button" data-post-id="76394212376" id="like_button_76394212376"><iframe id="like_iframe_76394212376" src="./Flocktracker_files/like_iframe(6).html" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowtransparency="true"></iframe></div></li>
+                                                </ul>
+                                            </section>
+                                        </footer>
+                                    </section>
+                                    
+                                    
+                                </div>
+                            </article>
+                    
+                            <article class="link not-page post-74370822497" data-post-id="post_74370822497">
+                                <div class="post-wrapper clearfix">
+                                    <section class="post">
+                                        
+
+                                        
+
+                                        
+
+                                        
+
+
+                                        
+                                        <div class="link-wrapper">
+                                            <h2><a href="http://www.scribd.com/doc/201971729/Report-From-Pereferico">Pereferico Report</a></h2>
+                                        </div>
+                                        
+                                        <div class="caption">
+                                            <blockquote class="link_og_blockquote">Report on Pereferico Oriente Flocktracking initiative from January 22, 2014.</blockquote>
+<p>Initial report of in-field data test, measuring effectiveness and stability of new Flocktracker application, poised to be released publicly by February of 2014. Report can be accessed through the pane below or by clicking the above header link.</p>
+<p><iframe class="scribd_iframe_embed" frameborder="0" height="600" id="doc_89295" scrolling="no" src="./Flocktracker_files/content(1).html" width="100%" data-auto-height="false" data-aspect-ratio="0.772922022279349"></iframe></p>
+                                        </div>
+                                        
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+                                        
+
+                                        
+
+                                        
+                                                                            
+                                        
+
+                                    </section>
+                                    
+                                    
+                                    <section class="panel">
+                                        <footer class="post-footer">
+                                            <section class="meta"> 
+                                                <ul class="post-date">
+                                                    <li>
+                                                        <a href="http://flocktracker.tumblr.com/post/74370822497/pereferico-report" title="1 month ago">Jan 24th, 2014</a>
+                                                    </li>
+                                                    
+                                                </ul>
+                                            </section>
+                                            
+                                            <section class="post-controls">
+                                                <ul>
+                                                    <li class="share-control">
+                                                        <nav class="pop">
+                                                            <a href="http://flocktracker.tumblr.com/#" class="share selector"></a>
+                                                            <div class="pop-menu share-menu south" id="share_74370822497">
+                                                                <ul>
+                                                                    <li class="open-in-app"><a href="http://flocktracker.tumblr.com/#" class="share-item open-in-app" data-post="74370822497">Open in app</a></li>
+                                                                    <li><a href="http://facebook.com/sharer.php?u=http%3A%2F%2Fflocktracker.tumblr.com%2Fpost%2F74370822497%2Fpereferico-report&t=Flocktracker" class="share-item facebook" target="_blank">Facebook</a></li>
+                                                                    <li><a href="https://twitter.com/intent/tweet?text=Pereferico%20Report%20-%20Report%20on%20Pereferico%20Oriente%20Flocktracking%20initiative%20from%20January%2022%2C%202014.%20Initial...%20http%3A%2F%2Ftmblr.co%2FZRIlho15GsB5X" class="share-item twitter" target="_blank">Tweet</a></li>
+                                                                    <li><a href="mailto:?subject=A%20link%20from%20Flocktracker&body=Pereferico%20Report%20-%20Report%20on%20Pereferico%20Oriente%20Flocktracking%20initiative%20from%20January%2022%2C%202014.%20Initial%20report%20of%20in-field%20data%20test%2C%20measuring%20effectiveness%20and%20stability%20of%20new...%20http%3A%2F%2Fflocktracker.tumblr.com%2Fpost%2F74370822497%2Fpereferico-report" class="share-item mail">Mail</a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </li>
+                                                    <li class="reblog-control"><a href="http://www.tumblr.com/reblog/74370822497/szaRWNge" class="reblog_button" style="display: block;width:21px;height:21px;"><svg width="100%" height="100%" viewBox="0 0 537 512" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M 98.893,177.139c0.00-7.462, 4.826-12.275, 12.288-12.275L 405.12,164.864 l0.00,83.469 l 118.72-120.947L 405.12,8.678l0.00,81.51 L 49.382,90.189 c-15.206,0.00-27.648,12.429-27.648,27.648l0.00,171.814 l 77.146-71.603L 98.88,177.139 z M 438.874,332.646c0.00,7.45-4.826,12.275-12.275,12.275L 123.75,344.922 l0.00-83.469 l-116.506,120.922l 116.506,120.947l0.00-81.498 l 356.864,0.00 c 15.206,0.00, 27.648-12.454, 27.648-27.648L 508.262,220.134 l-69.402,71.59L 438.861,332.646 z"></path></svg></a></li>
+                                                    <li class="like-control"><div class="like_button" data-post-id="74370822497" id="like_button_74370822497"><iframe id="like_iframe_74370822497" src="./Flocktracker_files/like_iframe(5).html" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowtransparency="true"></iframe></div></li>
+                                                </ul>
+                                            </section>
+                                        </footer>
+                                    </section>
+                                    
+                                    
+                                </div>
+                            </article>
+                    
+                            <article class="text not-page post-73382978015" data-post-id="post_73382978015">
+                                <div class="post-wrapper clearfix">
+                                    <section class="post">
+                                        
+                                            <h2><a href="http://flocktracker.tumblr.com/post/73382978015/hello-world">Hello, world!</a></h2>
+                                            
+                                            <div class="body-text">
+                                                <p>The new, free-to-use version of the application is readying for its initial roll out. To keep updated with the status of the application, as well as to learn more about the official release, please sign up with out online contact list by clicking&nbsp;<a href="http://tinyurl.com/flocktracker">here</a>! And, when you’re done, head on over to <a href="http://facebook.com/flocktracker">Facebook</a> and give us a “Like.”</p>
+<p><span>Our goal is to revolutionize data collection methodology to enable researchers and technocrats to create inexpensive, highly accurate, and robust data sets through traditional surveying methods that were previous unattainable or exceedingly labor intensive.</span></p>
+                                            </div>
+                                            
+                                        
+
+                                        
+
+                                        
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+                                        
+
+                                        
+
+                                        
+                                                                            
+                                        
+
+                                    </section>
+                                    
+                                    
+                                    <section class="panel">
+                                        <footer class="post-footer">
+                                            <section class="meta"> 
+                                                <ul class="post-date">
+                                                    <li>
+                                                        <a href="http://flocktracker.tumblr.com/post/73382978015/hello-world" title="1 month ago">Jan 23rd, 2014</a>
+                                                    </li>
+                                                    
+                                                </ul>
+                                            </section>
+                                            
+                                            <section class="post-controls">
+                                                <ul>
+                                                    <li class="share-control">
+                                                        <nav class="pop">
+                                                            <a href="http://flocktracker.tumblr.com/#" class="share selector"></a>
+                                                            <div class="pop-menu share-menu south" id="share_73382978015">
+                                                                <ul>
+                                                                    <li class="open-in-app"><a href="http://flocktracker.tumblr.com/#" class="share-item open-in-app" data-post="73382978015">Open in app</a></li>
+                                                                    <li><a href="http://facebook.com/sharer.php?u=http%3A%2F%2Fflocktracker.tumblr.com%2Fpost%2F73382978015%2Fhello-world&t=Hello%2C%20world%21" class="share-item facebook" target="_blank">Facebook</a></li>
+                                                                    <li><a href="https://twitter.com/intent/tweet?text=Hello%2C%20world%21%20-%20The%20new%2C%20free-to-use%20version%20of%20the%20application%20is%20readying%20for%20its%20initial%20roll%20out.%20To...%20http%3A%2F%2Ftmblr.co%2FZRIlho14Lzs7V" class="share-item twitter" target="_blank">Tweet</a></li>
+                                                                    <li><a href="mailto:?subject=A%20post%20from%20Flocktracker&body=Hello%2C%20world%21%20-%20The%20new%2C%20free-to-use%20version%20of%20the%20application%20is%20readying%20for%20its%20initial%20roll%20out.%20To%20keep%20updated%20with%20the%20status%20of%20the%20application%2C%20as%20well%20as%20to%20learn%20more%20about%20the...%20http%3A%2F%2Fflocktracker.tumblr.com%2Fpost%2F73382978015%2Fhello-world" class="share-item mail">Mail</a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </li>
+                                                    <li class="reblog-control"><a href="http://www.tumblr.com/reblog/73382978015/6pQbxV6s" class="reblog_button" style="display: block;width:21px;height:21px;"><svg width="100%" height="100%" viewBox="0 0 537 512" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M 98.893,177.139c0.00-7.462, 4.826-12.275, 12.288-12.275L 405.12,164.864 l0.00,83.469 l 118.72-120.947L 405.12,8.678l0.00,81.51 L 49.382,90.189 c-15.206,0.00-27.648,12.429-27.648,27.648l0.00,171.814 l 77.146-71.603L 98.88,177.139 z M 438.874,332.646c0.00,7.45-4.826,12.275-12.275,12.275L 123.75,344.922 l0.00-83.469 l-116.506,120.922l 116.506,120.947l0.00-81.498 l 356.864,0.00 c 15.206,0.00, 27.648-12.454, 27.648-27.648L 508.262,220.134 l-69.402,71.59L 438.861,332.646 z"></path></svg></a></li>
+                                                    <li class="like-control"><div class="like_button" data-post-id="73382978015" id="like_button_73382978015"><iframe id="like_iframe_73382978015" src="./Flocktracker_files/like_iframe(1).html" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowtransparency="true"></iframe></div></li>
+                                                </ul>
+                                            </section>
+                                        </footer>
+                                    </section>
+                                    
+                                    
+                                </div>
+                            </article>
+                    
+                            <article class="photo not-page post-73528263709" data-post-id="post_73528263709">
+                                <div class="post-wrapper clearfix">
+                                    <section class="post">
+                                        
+
+                                        
+                                        <figure class="high-res with-caption" data-photo-width="1242">
+                                            <div class="photo-wrapper">
+                                                <div class="photo-wrapper-inner">
+                                                    <a href="http://flocktracker.tumblr.com/image/73528263709"><img src="./Flocktracker_files/tumblr_mzib60Nu3D1tq3esyo1_r1_1280.png" alt="Missed the event? Want to review the presentation? View the content from this report online, here, or by scrolling below.
+" width="1242" height="1920"></a>
+                                                </div>
+                                            </div>
+                                            
+                                            <figcaption class="caption">
+                                                <p><em>Missed the event? Want to review the presentation? View the content from this report online, <a href="http://www.scribd.com/doc/201904750/UAM-2014" target="_blank">here</a>, or by scrolling below.</em></p>
+<p><iframe class="scribd_iframe_embed" frameborder="0" height="600" id="doc_12731" scrolling="no" src="./Flocktracker_files/content.html" width="100%" data-auto-height="false" data-aspect-ratio="1.33234859675037"></iframe></p>
+                                            </figcaption>
+                                            
+                                        </figure>
+                                        
+
+                                        
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+                                        
+
+                                        
+
+                                        
+                                                                            
+                                        
+
+                                    </section>
+                                    
+                                    
+                                    <section class="panel">
+                                        <footer class="post-footer">
+                                            <section class="meta"> 
+                                                <ul class="post-date">
+                                                    <li>
+                                                        <a href="http://flocktracker.tumblr.com/post/73528263709/missed-the-event-want-to-review-the-presentation" title="1 month ago">Jan 16th, 2014</a>
+                                                    </li>
+                                                    
+                                                </ul>
+                                            </section>
+                                            
+                                            <section class="post-controls">
+                                                <ul>
+                                                    <li class="share-control">
+                                                        <nav class="pop">
+                                                            <a href="http://flocktracker.tumblr.com/#" class="share selector"></a>
+                                                            <div class="pop-menu share-menu south" id="share_73528263709">
+                                                                <ul>
+                                                                    <li class="open-in-app"><a href="http://flocktracker.tumblr.com/#" class="share-item open-in-app" data-post="73528263709">Open in app</a></li>
+                                                                    <li><a href="http://facebook.com/sharer.php?u=http%3A%2F%2Fflocktracker.tumblr.com%2Fpost%2F73528263709%2Fmissed-the-event-want-to-review-the-presentation&t=Flocktracker" class="share-item facebook" target="_blank">Facebook</a></li>
+                                                                    <li><a href="https://twitter.com/intent/tweet?text=Photo%3A%20Missed%20the%20event%3F%20Want%20to%20review%20the%20presentation%3F%20View%20the%20content%20from%20this%20report%20online%2C%20here%2C...%20http%3A%2F%2Ftmblr.co%2FZRIlho14Ue4GT" class="share-item twitter" target="_blank">Tweet</a></li>
+                                                                    <li><a href="mailto:?subject=A%20photo%20from%20Flocktracker&body=Photo%3A%20Missed%20the%20event%3F%20Want%20to%20review%20the%20presentation%3F%20View%20the%20content%20from%20this%20report%20online%2C%20here%2C%20or%20by%20scrolling%20below.%20http%3A%2F%2Fflocktracker.tumblr.com%2Fpost%2F73528263709%2Fmissed-the-event-want-to-review-the-presentation" class="share-item mail">Mail</a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </li>
+                                                    <li class="reblog-control"><a href="http://www.tumblr.com/reblog/73528263709/2M5dqSTv" class="reblog_button" style="display: block;width:21px;height:21px;"><svg width="100%" height="100%" viewBox="0 0 537 512" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M 98.893,177.139c0.00-7.462, 4.826-12.275, 12.288-12.275L 405.12,164.864 l0.00,83.469 l 118.72-120.947L 405.12,8.678l0.00,81.51 L 49.382,90.189 c-15.206,0.00-27.648,12.429-27.648,27.648l0.00,171.814 l 77.146-71.603L 98.88,177.139 z M 438.874,332.646c0.00,7.45-4.826,12.275-12.275,12.275L 123.75,344.922 l0.00-83.469 l-116.506,120.922l 116.506,120.947l0.00-81.498 l 356.864,0.00 c 15.206,0.00, 27.648-12.454, 27.648-27.648L 508.262,220.134 l-69.402,71.59L 438.861,332.646 z"></path></svg></a></li>
+                                                    <li class="like-control"><div class="like_button" data-post-id="73528263709" id="like_button_73528263709"><iframe id="like_iframe_73528263709" src="./Flocktracker_files/like_iframe(4).html" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowtransparency="true"></iframe></div></li>
+                                                </ul>
+                                            </section>
+                                        </footer>
+                                    </section>
+                                    
+                                    
+                                </div>
+                            </article>
+                    
+                            <article class="photo not-page post-73382530752" data-post-id="post_73382530752">
+                                <div class="post-wrapper clearfix">
+                                    <section class="post">
+                                        
+
+                                        
+                                        <figure class="high-res with-caption" data-photo-width="1023">
+                                            <div class="photo-wrapper">
+                                                <div class="photo-wrapper-inner">
+                                                    <a href="http://flocktracker.tumblr.com/image/73382530752"><img src="./Flocktracker_files/tumblr_mzff8clDEf1tq3esyo1_1280.png" alt="Flocktracker is a smartphone based application designed to read your traditional pen and paper survey and convert it into a dynamic, interactive smartphone-based survey tool that combines dynamic trip data, along with anything from ridership to counts to vehicle speed to create rich, robust data sets that lend new insight and analytical potential to your research endeavors. This data is visible live and, combined with a forthcoming Dashboard system, will build off of current visualization provisions to enable operators to monitor the locations of their surveyors, as well as broadcast live, up-to-the-second updates on desired aggregate data metrics." width="1023" height="649"></a>
+                                                </div>
+                                            </div>
+                                            
+                                            <figcaption class="caption">
+                                                <p>Flocktracker is a smartphone based application designed to read your traditional pen and paper survey and convert it into a dynamic, interactive smartphone-based survey tool that combines dynamic trip data, along with anything from ridership to counts to vehicle speed to create rich, robust data sets that lend new insight and analytical potential to your research endeavors. This data is visible live and, combined with a forthcoming Dashboard system, will build off of current visualization provisions to enable operators to monitor the locations of their surveyors, as well as broadcast live, up-to-the-second updates on desired aggregate data metrics.</p>
+                                            </figcaption>
+                                            
+                                        </figure>
+                                        
+
+                                        
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+                                        
+
+                                        
+
+                                        
+                                                                            
+                                        
+
+                                    </section>
+                                    
+                                    
+                                    <section class="panel">
+                                        <footer class="post-footer">
+                                            <section class="meta"> 
+                                                <ul class="post-date">
+                                                    <li>
+                                                        <a href="http://flocktracker.tumblr.com/post/73382530752/flocktracker-is-a-smartphone-based-application" title="1 month ago">Jan 15th, 2014</a>
+                                                    </li>
+                                                    
+                                                </ul>
+                                            </section>
+                                            
+                                            <section class="post-controls">
+                                                <ul>
+                                                    <li class="share-control">
+                                                        <nav class="pop">
+                                                            <a href="http://flocktracker.tumblr.com/#" class="share selector"></a>
+                                                            <div class="pop-menu share-menu south" id="share_73382530752">
+                                                                <ul>
+                                                                    <li class="open-in-app"><a href="http://flocktracker.tumblr.com/#" class="share-item open-in-app" data-post="73382530752">Open in app</a></li>
+                                                                    <li><a href="http://facebook.com/sharer.php?u=http%3A%2F%2Fflocktracker.tumblr.com%2Fpost%2F73382530752%2Fflocktracker-is-a-smartphone-based-application&t=Flocktracker" class="share-item facebook" target="_blank">Facebook</a></li>
+                                                                    <li><a href="https://twitter.com/intent/tweet?text=Photo%3A%20Flocktracker%20is%20a%20smartphone%20based%20application%20designed%20to%20read%20your%20traditional%20pen%20and%20paper...%20http%3A%2F%2Ftmblr.co%2FZRIlho14Ly8x0" class="share-item twitter" target="_blank">Tweet</a></li>
+                                                                    <li><a href="mailto:?subject=A%20photo%20from%20Flocktracker&body=Photo%3A%20Flocktracker%20is%20a%20smartphone%20based%20application%20designed%20to%20read%20your%20traditional%20pen%20and%20paper%20survey%20and%20convert%20it%20into%20a%20dynamic%2C%20interactive...%20http%3A%2F%2Fflocktracker.tumblr.com%2Fpost%2F73382530752%2Fflocktracker-is-a-smartphone-based-application" class="share-item mail">Mail</a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </li>
+                                                    <li class="reblog-control"><a href="http://www.tumblr.com/reblog/73382530752/eYrlKIEQ" class="reblog_button" style="display: block;width:21px;height:21px;"><svg width="100%" height="100%" viewBox="0 0 537 512" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M 98.893,177.139c0.00-7.462, 4.826-12.275, 12.288-12.275L 405.12,164.864 l0.00,83.469 l 118.72-120.947L 405.12,8.678l0.00,81.51 L 49.382,90.189 c-15.206,0.00-27.648,12.429-27.648,27.648l0.00,171.814 l 77.146-71.603L 98.88,177.139 z M 438.874,332.646c0.00,7.45-4.826,12.275-12.275,12.275L 123.75,344.922 l0.00-83.469 l-116.506,120.922l 116.506,120.947l0.00-81.498 l 356.864,0.00 c 15.206,0.00, 27.648-12.454, 27.648-27.648L 508.262,220.134 l-69.402,71.59L 438.861,332.646 z"></path></svg></a></li>
+                                                    <li class="like-control"><div class="like_button" data-post-id="73382530752" id="like_button_73382530752"><iframe id="like_iframe_73382530752" src="./Flocktracker_files/like_iframe.html" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowtransparency="true"></iframe></div></li>
+                                                </ul>
+                                            </section>
+                                        </footer>
+                                    </section>
+                                    
+                                    
+                                </div>
+                            </article>
+                    
+                            <article class="photo not-page post-73384742194" data-post-id="post_73384742194">
+                                <div class="post-wrapper clearfix">
+                                    <section class="post">
+                                        
+
+                                        
+                                        <figure class="high-res with-caption" data-photo-width="1010">
+                                            <div class="photo-wrapper">
+                                                <div class="photo-wrapper-inner">
+                                                    <a href="http://flocktracker.tumblr.com/image/73384742194"><img src="./Flocktracker_files/tumblr_mzfgfmpdKX1tq3esyo1_1280.png" alt="Data output from Flocktracker has a myriad of potentials. In the above example, research was performed in the metropolitan area of Mexico City to examine perceived security levels within the urban environment along key transport routes stretching out from the Federal District into the less formalized State of Mexico. The above image demonstrates how the survey data can be tied with geospatial coordinates to create topographical visualization of security perception through the urban environment. For more information on this project, please email Kuan Butts, MCP at kuanb@mit.edu." width="1010" height="572"></a>
+                                                </div>
+                                            </div>
+                                            
+                                            <figcaption class="caption">
+                                                <p>Data output from Flocktracker has a myriad of potentials. In the above example, research was performed in the metropolitan area of Mexico City to examine perceived security levels within the urban environment along key transport routes stretching out from the Federal District into the less formalized State of Mexico. The above image demonstrates how the survey data can be tied with geospatial coordinates to create topographical visualization of security perception through the urban environment. For more information on this project, please email Kuan Butts, MCP at kuanb@mit.edu.</p>
+                                            </figcaption>
+                                            
+                                        </figure>
+                                        
+
+                                        
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+                                        
+
+                                        
+
+                                        
+                                                                            
+                                        
+
+                                    </section>
+                                    
+                                    
+                                    <section class="panel">
+                                        <footer class="post-footer">
+                                            <section class="meta"> 
+                                                <ul class="post-date">
+                                                    <li>
+                                                        <a href="http://flocktracker.tumblr.com/post/73384742194/data-output-from-flocktracker-has-a-myriad-of" title="1 month ago">Jan 14th, 2014</a>
+                                                    </li>
+                                                    
+                                                </ul>
+                                            </section>
+                                            
+                                            <section class="post-controls">
+                                                <ul>
+                                                    <li class="share-control">
+                                                        <nav class="pop">
+                                                            <a href="http://flocktracker.tumblr.com/#" class="share selector"></a>
+                                                            <div class="pop-menu share-menu south" id="share_73384742194">
+                                                                <ul>
+                                                                    <li class="open-in-app"><a href="http://flocktracker.tumblr.com/#" class="share-item open-in-app" data-post="73384742194">Open in app</a></li>
+                                                                    <li><a href="http://facebook.com/sharer.php?u=http%3A%2F%2Fflocktracker.tumblr.com%2Fpost%2F73384742194%2Fdata-output-from-flocktracker-has-a-myriad-of&t=Flocktracker" class="share-item facebook" target="_blank">Facebook</a></li>
+                                                                    <li><a href="https://twitter.com/intent/tweet?text=Photo%3A%20Data%20output%20from%20Flocktracker%20has%20a%20myriad%20of%20potentials.%20In%20the%20above%20example%2C%20research%20was...%20http%3A%2F%2Ftmblr.co%2FZRIlho14M4aqo" class="share-item twitter" target="_blank">Tweet</a></li>
+                                                                    <li><a href="mailto:?subject=A%20photo%20from%20Flocktracker&body=Photo%3A%20Data%20output%20from%20Flocktracker%20has%20a%20myriad%20of%20potentials.%20In%20the%20above%20example%2C%20research%20was%20performed%20in%20the%20metropolitan%20area%20of%20Mexico%20City%20to...%20http%3A%2F%2Fflocktracker.tumblr.com%2Fpost%2F73384742194%2Fdata-output-from-flocktracker-has-a-myriad-of" class="share-item mail">Mail</a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </li>
+                                                    <li class="reblog-control"><a href="http://www.tumblr.com/reblog/73384742194/gHifgey9" class="reblog_button" style="display: block;width:21px;height:21px;"><svg width="100%" height="100%" viewBox="0 0 537 512" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M 98.893,177.139c0.00-7.462, 4.826-12.275, 12.288-12.275L 405.12,164.864 l0.00,83.469 l 118.72-120.947L 405.12,8.678l0.00,81.51 L 49.382,90.189 c-15.206,0.00-27.648,12.429-27.648,27.648l0.00,171.814 l 77.146-71.603L 98.88,177.139 z M 438.874,332.646c0.00,7.45-4.826,12.275-12.275,12.275L 123.75,344.922 l0.00-83.469 l-116.506,120.922l 116.506,120.947l0.00-81.498 l 356.864,0.00 c 15.206,0.00, 27.648-12.454, 27.648-27.648L 508.262,220.134 l-69.402,71.59L 438.861,332.646 z"></path></svg></a></li>
+                                                    <li class="like-control"><div class="like_button" data-post-id="73384742194" id="like_button_73384742194"><iframe id="like_iframe_73384742194" src="./Flocktracker_files/like_iframe(2).html" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowtransparency="true"></iframe></div></li>
+                                                </ul>
+                                            </section>
+                                        </footer>
+                                    </section>
+                                    
+                                    
+                                </div>
+                            </article>
+                    
+                            <article class="text not-page post-73386090051" data-post-id="post_73386090051">
+                                <div class="post-wrapper clearfix">
+                                    <section class="post">
+                                        
+                                            <h2><a href="http://flocktracker.tumblr.com/post/73386090051/organization-overview">Organization Overview</a></h2>
+                                            
+                                            <div class="body-text">
+                                                
+<p>Flocktracker is a tool developed as a robust and flexible research tool for ongoing studies in both Dhaka, Bangladesh and Mexico City, Mexico. The project is the result of an ongoing effort under the research of <a href="http://mit.edu/">MIT</a> professor <a href="http://czegras.scripts.mit.edu/web/">P. Christopher Zegras’ Mobility Futures Collaborative</a> in the <a href="http://dusp.mit.edu/">Department of Urban Studies and Planning</a>. The current application is based off of initial designs produced with Urban Launchpad in the mapping of Dhaka’s bus system to create the city’s <a href="http://www.kickstarter.com/projects/urbanlaunchpad/first-bus-map-of-dhaka">first complete bus map</a>. More can be found on this effort by searching “<a href="http://www.urbanlaunchpad.org/">Urban Launchpad</a>" in either <a href="http://facebook.com/groups/urbanlaunchpad/">Facebook</a> or <a href="https://www.google.com/search?q=urban+launchpad&oq=urban+launchpad&aqs=chrome..69i57j69i60j69i61j69i60j0l2.6054j0j4&sourceid=chrome&espv=210&es_sm=91&ie=UTF-8">Google</a>.</p>
+<p>Email Contact Information</p>
+<p class="read_more_container"><a href="http://flocktracker.tumblr.com/post/73386090051/organization-overview" class="read_more">Read More</a></p>
+                                            </div>
+                                            
+                                        
+
+                                        
+
+                                        
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+                                        
+
+                                        
+
+                                        
+                                                                            
+                                        
+
+                                    </section>
+                                    
+                                    
+                                    <section class="panel">
+                                        <footer class="post-footer">
+                                            <section class="meta"> 
+                                                <ul class="post-date">
+                                                    <li>
+                                                        <a href="http://flocktracker.tumblr.com/post/73386090051/organization-overview" title="2 months ago">Jan 2nd, 2014</a>
+                                                    </li>
+                                                    
+                                                </ul>
+                                            </section>
+                                            
+                                            <section class="post-controls">
+                                                <ul>
+                                                    <li class="share-control">
+                                                        <nav class="pop">
+                                                            <a href="http://flocktracker.tumblr.com/#" class="share selector"></a>
+                                                            <div class="pop-menu share-menu south" id="share_73386090051">
+                                                                <ul>
+                                                                    <li class="open-in-app"><a href="http://flocktracker.tumblr.com/#" class="share-item open-in-app" data-post="73386090051">Open in app</a></li>
+                                                                    <li><a href="http://facebook.com/sharer.php?u=http%3A%2F%2Fflocktracker.tumblr.com%2Fpost%2F73386090051%2Forganization-overview&t=Organization%20Overview" class="share-item facebook" target="_blank">Facebook</a></li>
+                                                                    <li><a href="https://twitter.com/intent/tweet?text=Organization%20Overview%20-%20Flocktracker%20is%20a%20tool%20developed%20as%20a%20robust%20and%20flexible%20research%20tool%20for%20ongoing...%20http%3A%2F%2Ftmblr.co%2FZRIlho14M9jv3" class="share-item twitter" target="_blank">Tweet</a></li>
+                                                                    <li><a href="mailto:?subject=A%20post%20from%20Flocktracker&body=Organization%20Overview%20-%20Flocktracker%20is%20a%20tool%20developed%20as%20a%20robust%20and%20flexible%20research%20tool%20for%20ongoing%20studies%20in%20both%20Dhaka%2C%20Bangladesh%20and%20Mexico%20City%2C%20Mexico.%20The%20project%20is...%20http%3A%2F%2Fflocktracker.tumblr.com%2Fpost%2F73386090051%2Forganization-overview" class="share-item mail">Mail</a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </li>
+                                                    <li class="reblog-control"><a href="http://www.tumblr.com/reblog/73386090051/l7jpPmT9" class="reblog_button" style="display: block;width:21px;height:21px;"><svg width="100%" height="100%" viewBox="0 0 537 512" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M 98.893,177.139c0.00-7.462, 4.826-12.275, 12.288-12.275L 405.12,164.864 l0.00,83.469 l 118.72-120.947L 405.12,8.678l0.00,81.51 L 49.382,90.189 c-15.206,0.00-27.648,12.429-27.648,27.648l0.00,171.814 l 77.146-71.603L 98.88,177.139 z M 438.874,332.646c0.00,7.45-4.826,12.275-12.275,12.275L 123.75,344.922 l0.00-83.469 l-116.506,120.922l 116.506,120.947l0.00-81.498 l 356.864,0.00 c 15.206,0.00, 27.648-12.454, 27.648-27.648L 508.262,220.134 l-69.402,71.59L 438.861,332.646 z"></path></svg></a></li>
+                                                    <li class="like-control"><div class="like_button" data-post-id="73386090051" id="like_button_73386090051"><iframe id="like_iframe_73386090051" src="./Flocktracker_files/like_iframe(3).html" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowtransparency="true"></iframe></div></li>
+                                                </ul>
+                                            </section>
+                                        </footer>
+                                    </section>
+                                    
+                                    
+                                </div>
+                            </article>
+                    
+                </div>
+            </section>
+            <footer id="footer" class="content clearfix">
+                
+                    
+                
+            </footer>
+        </section>
+        <script>
+            var Optica = {};
+            Optica.TITLE_COLOR = "#444444";
+            Optica.ENDLESS_SCROLLING = true;
+            Optica.LAYOUT = "regular";
+            Optica.GRID_LAYOUT = (Optica.LAYOUT === 'grid');
+            Optica.ENDLESS_NOTES_SCROLLING = true;
+        </script>
+        <script src="./Flocktracker_files/jquery.min.js"></script>
+        <script>!window.jQuery && document.write(unescape('%3Cscript src="http://static.tumblr.com/vr9xgox/sBgmmjhyw/jquery-1.9.1.min.js"%3E%3C/script%3E'));</script>
+        <script src="./Flocktracker_files/jquery.masonry.min.js"></script>
+        <script src="./Flocktracker_files/main-min.js"></script>
+
+        
+            <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+              (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+              m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+              })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+              ga('create', 'UA-47192232-1', 'tumblr.com');
+              ga('send', 'pageview');
+            </script>
+        
+    <!-- BEGIN TUMBLR CODE --><iframe scrolling="no" width="1" height="1" frameborder="0" style="background-color:transparent; overflow:hidden; position:absolute; top:0; left:0 z-index:9999;" id="ga_target" src="./Flocktracker_files/analytics.html"></iframe><script type="text/javascript">
+    (function(){
+        var analytics_frame = document.getElementById('ga_target');
+        var analytics_iframe_loaded;
+        var user_logged_in;
+        var blog_is_nsfw = 'No';
+
+        var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+        var eventer = window[eventMethod];
+        var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+        eventer(messageEvent,function(e) {
+            var message = (e.data && e.data.split) ? e.data.split(';') : '';
+            switch (message[0]) {
+                case 'analytics_iframe_loaded':
+                    analytics_iframe_loaded = true;
+                    postCSMessage();
+                    postGAMessage();
+                    break;
+                case 'user_logged_in':
+                    user_logged_in = message[1];
+                    postGAMessage();
+                    break;
+            }
+        }, false);
+
+        analytics_frame.src = "http://assets.tumblr.com/analytics.html?eff8b95c853b77f47eaca7448d789925#http://flocktracker.tumblr.com"
+        function postGAMessage() {
+            if (analytics_iframe_loaded && user_logged_in) {
+                var is_ajax = false;
+                analytics_frame.contentWindow.postMessage(['tick_google_analytics', is_ajax, user_logged_in, blog_is_nsfw, '/?route=%2F'].join(';'), analytics_frame.src.split('/analytics.html')[0]);
+            }
+        }
+        function postCSMessage() {
+            COMSCORE = true;
+            analytics_frame.contentWindow.postMessage('enable_comscore;' + window.location, analytics_frame.src.split('/analytics.html')[0]);
+        }
+    })();
+</script><script type="text/javascript">
+      var _qevents = _qevents || [];
+
+      (function() {
+       var elem = document.createElement('script');
+
+       elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+       elem.async = true;
+       elem.type = "text/javascript";
+       var scpt = document.getElementsByTagName('script')[0];
+       scpt.parentNode.insertBefore(elem, scpt);
+      })();
+    </script><script type="text/javascript">
+        _qevents.push( { qacct: 'p-19UtqE8ngoZbM' } );
+    </script><noscript>&lt;div style="display: none;"&gt;&lt;img src="//pixel.quantserve.com/pixel/'p-19UtqE8ngoZbM'.gif" height="1" width="1" alt="Quantcast"/&gt;&lt;/div&gt;</noscript><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1394049083&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvZmxvY2t0cmFja2VyLnR1bWJsci5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8ifQ==&U=EPJNJEHMDE&K=01b67ce91d67246d6f194955311963dcb32d8e788b65bfc01774915fa5e3ee6e&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript>&lt;img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1394049083&amp;J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvZmxvY2t0cmFja2VyLnR1bWJsci5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8iLCJub3NjcmlwdCI6MX0=&amp;U=EPJNJEHMDE&amp;K=5b8b3684ca83fccb216b3a0d93ca3135b33c447a51fc21086c92266962229b17&amp;R="&gt;</noscript><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1394049083&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL2Zsb2NrdHJhY2tlci50dW1ibHIuY29tXC8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvIiwicG9zdHMiOlt7InBvc3RpZCI6Ijc2Mzk0MjEyMzc2IiwiYmxvZ2lkIjoiMTY2MjUxNjgxIiwic291cmNlIjozM30seyJwb3N0aWQiOiI3NDM3MDgyMjQ5NyIsImJsb2dpZCI6IjE2NjI1MTY4MSIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiNzMzODI5NzgwMTUiLCJibG9naWQiOiIxNjYyNTE2ODEiLCJzb3VyY2UiOjMzfSx7InBvc3RpZCI6IjczNTI4MjYzNzA5IiwiYmxvZ2lkIjoiMTY2MjUxNjgxIiwic291cmNlIjozM30seyJwb3N0aWQiOiI3MzM4MjUzMDc1MiIsImJsb2dpZCI6IjE2NjI1MTY4MSIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiNzMzODQ3NDIxOTQiLCJibG9naWQiOiIxNjYyNTE2ODEiLCJzb3VyY2UiOjMzfSx7InBvc3RpZCI6IjczMzg2MDkwMDUxIiwiYmxvZ2lkIjoiMTY2MjUxNjgxIiwic291cmNlIjozM31dfQ==&U=JOCAKOLKOD&K=f69cb69c87830d2f417ad99edf0b397fb7628758cf2d8a13e643a7420ed6ce40&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript>&lt;img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1394049083&amp;J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL2Zsb2NrdHJhY2tlci50dW1ibHIuY29tXC8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvIiwicG9zdHMiOlt7InBvc3RpZCI6Ijc2Mzk0MjEyMzc2IiwiYmxvZ2lkIjoiMTY2MjUxNjgxIiwic291cmNlIjozM30seyJwb3N0aWQiOiI3NDM3MDgyMjQ5NyIsImJsb2dpZCI6IjE2NjI1MTY4MSIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiNzMzODI5NzgwMTUiLCJibG9naWQiOiIxNjYyNTE2ODEiLCJzb3VyY2UiOjMzfSx7InBvc3RpZCI6IjczNTI4MjYzNzA5IiwiYmxvZ2lkIjoiMTY2MjUxNjgxIiwic291cmNlIjozM30seyJwb3N0aWQiOiI3MzM4MjUzMDc1MiIsImJsb2dpZCI6IjE2NjI1MTY4MSIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiNzMzODQ3NDIxOTQiLCJibG9naWQiOiIxNjYyNTE2ODEiLCJzb3VyY2UiOjMzfSx7InBvc3RpZCI6IjczMzg2MDkwMDUxIiwiYmxvZ2lkIjoiMTY2MjUxNjgxIiwic291cmNlIjozM31dLCJub3NjcmlwdCI6MX0=&amp;U=JOCAKOLKOD&amp;K=efb2669c2b357c1259f707ef6be3f69abff32694b7bc01966814718b12209e4c&amp;R="&gt;</noscript><script type="text/javascript" src="./Flocktracker_files/rapid-3.9.js"></script><script>
+                    (function(YAHOO) {
+                        if (YAHOO) {
+                            YAHOO.i13n.beacon_server = 'nol.yahoo.com';
+                            var keys = { pd:'/', _li:0, i_rad:0, i_strm:0 };
+                            YAHOO.rapid = new YAHOO.i13n.Rapid({spaceid:1197719229, client_only:1, yql_enabled:false, keys:keys});
+                        }
+                    })(window.YAHOO);
+                </script><iframe id="tumblr_controls" class="tumblr_controls  visible" width="267" height="26" frameborder="0" scrolling="no" src="./Flocktracker_files/iframe.html" style="position: fixed;"></iframe><div id="teaser_iframe_container" style="display:none;"><iframe scrolling="no" frameborder="0" src="./Flocktracker_files/teaser.html" id="teaser_iframe" width="1" height="1"></iframe></div><script type="text/javascript">
+    (function(Tumblr){
+        var follow_iframe_initialized = false;
+        if (Tumblr.FollowTeaser && Tumblr.PostMessageListener) {
+            // Don't do anything until the first initialize event
+            Tumblr.PostMessageListener.initialize(function(message, origin) {
+                if (follow_iframe_initialized || message.length < 2) return;
+
+                if (message[0] === 'follow_iframe' && message[1] === 'enable') {
+                    Tumblr.FollowTeaser.current_page = 1;
+                    Tumblr.FollowTeaser.infer_infinite_scroll = true;
+                    Tumblr.FollowTeaser.create_from_tumblr_controls("http:\/\/assets.tumblr.com\/assets\/html\/iframe\/follow.html?_v=ddc4d7e7f07cf3cb4887b58ce16597a6");
+                    Tumblr.FollowTeaser.scroll_listener(true);
+                    follow_iframe_initialized = true;
+                }
+            });
+        }
+    })(this.Tumblr || (this.Tumblr = {}));
+</script><!--[if IE]><script type="text/javascript">document.getElementById('tumblr_controls').allowTransparency=true;</script><![endif]--><!-- END TUMBLR CODE -->
+
+
+
+</body></html>
