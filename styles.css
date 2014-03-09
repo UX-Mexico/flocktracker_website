@@ -31,9 +31,15 @@
     font-style: normal;
 }
 
+a:link {color:#A9A9A9; text-decoration: none}
+a:visited {color:#A9A9A9;}
+a:hover {color:#E0E0E0;}
+a:active {color:#E0E0E0;} 
+
 html {
     margin: 0;
     padding: 0;
+    text-decoration: none;
 }
 
 #topbar {
@@ -49,8 +55,8 @@ body {
 	font-family: "robotolight";
 	color: #555;
 	font-size: 13px;
-	margin: 0;
 	padding-bottom: 0px;
+	margin: 0px;
 }
 
 #splashimage img {
@@ -63,7 +69,6 @@ body {
 	font-size:24px;
 	padding-left: 97px;
 	padding-right: 97px;
-	padding-top: 50px;
 	padding-bottom: 15px;
 }
 
@@ -82,12 +87,29 @@ body {
 	font-weight: 500;
 	color: E0E0E0;
 	font-size: 28px;
-	margin-left: 20px;
+	margin-left: 15px;
+}
+
+#rightmenu {
+	font-family:'robotolight';
+	font-size:18px;
+	height: 180px;
+	margin-left:40%;
+	vertical-align: 20px;
+	color: E0E0E0;
 }
 
 #logo_topbar img {
 	margin-left: 18px;
-	height: 75%;
-	margin-top: 9px;
+	height: 60px;
+	margin-top: 10px;
 	position: relative;
+}
+
+#imgctr img {
+	display: block;
+    margin: 0 auto;
+    height: 80px;
+	padding-top: 50px;
+	padding-bottom: 5px;
 }
