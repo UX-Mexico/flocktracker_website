@@ -31,7 +31,7 @@
     font-style: normal;
 }
 
-a:link {color:#A9A9A9; text-decoration: none}
+a:link {color:#9966FF; text-decoration: none}
 a:visited {color:#A9A9A9;}
 a:hover {color:#6916E6;}
 a:active {color:#E0E0E0;} 
@@ -90,12 +90,23 @@ body {
 	margin-left: 15px;
 }
 
-#rightmenu {
+#rightmenu1 {
+	font-family:'robotolight';
+	font-size:18px;
+	float: right;
+	height: 180px;
+	margin-left:3%;
+	margin-top: 27px;
+	margin-right: 3%;
+	color: E0E0E0;
+}
+
+#rightmenu2 {
 	font-family:'robotolight';
 	font-size:18px;
 	height: 180px;
-	margin-left:40%;
-	vertical-align: 20px;
+	margin-left:50%;
+	vertical-align: 25;
 	color: E0E0E0;
 }
 
